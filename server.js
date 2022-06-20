@@ -8,10 +8,9 @@ const PORT = process.env.PORT || 3000;
 const host = '0.0.0.0';
 const fs = require('fs');
 
-//this is require db.json file stuff
 let db = require('./db/db.json');
 
-//this is the middleware
+//middleware
 app.use(express.json());
 app.use(express.static('public'));
 
@@ -40,11 +39,9 @@ app.post('/api/notes', (req, res) => {
     res.json(req.body);
 })
 
-//Delete API route
 app.delete('/api/notes/:id', (req, res) => {
     const { id } = req.params;
 
-    //iterate over db array to compare ids. if ids are equal, delete from array
     for (let i = 0; i < db.length; i++) {
         if (id === db[i].id) {
             db.splice(i, 1)
