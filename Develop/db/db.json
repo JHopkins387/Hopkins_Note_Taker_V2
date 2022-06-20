@@ -4,3 +4,26 @@
         "text": "Test text"
     }
 ]
+
+[
+    {
+        "title": "Things to do in Morning",
+        "text": "Take Medicine\nBrush Teeth\nShower",
+        "id": "adadab4b-4840-42e0-995e-ef13524a2d0a&quot"
+    },
+    {
+        "title": "Favorite Things to DO",
+        "text": "Read Books\nWatch Youtube",
+        "id": "71fdcce1-53e5-4ec7-bba4-7fd16f3f6302"
+    },
+    {
+        "title": "Self Care",
+        "text": "Take a walk\nStand every hour for at least 5 min\nMeditation upon wake and before sleep",
+        "id": "94694120-0db0-4da2-920b-c7b2b98503cd"
+    },
+    {
+        "title": "Cook",
+        "text": "Pork meal\nMake salads\nBoiled eggs",
+        "id": "dc4fa19c-61a5-4c6e-83c7-3e7eb4ececf3"
+    }
+]
