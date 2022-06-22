@@ -1,4 +1,4 @@
-//starts import express package and initialize app variable by setting it to value of express()
+//starts import express package and initialize app variable
 const express = require('express');
 const app = express();
 const path = require('path');
@@ -14,7 +14,7 @@ let db = require('./db/db.json');
 app.use(express.json());
 app.use(express.static('public'));
 
-//add static routes here for the notes.html page and index.html page respectively
+//adds static routes here for the notes.html page and index.html page
 app.get('/notes', (req, res) => {
     res.sendFile(__dirname + '/public/notes.html')
 })

@@ -2,25 +2,5 @@
     {
         "title": "Test Title",
         "text": "Test text"
-    },
-    {
-        "title": "Things to do in Morning",
-        "text": "Take Medicine\nBrush Teeth\nShower\nChange I into Daytime Outfit",
-        "id": "adadab4b-4840-42e0-995e-ef13524a2d0a"
-    },
-    {
-        "title": "Favorite Things to Do",
-        "text": "Read Books\nWatch Youtube\nPlay VideoGames",
-        "id": "71fdcce1-53e5-4ec7-bba4-7fd16f3f6302"
-    },
-    {
-        "title": "Favorite Foods",
-        "text": "Pizza\nHot DOgs\nMTator Tots",
-        "id": "94644120-0db0-4da2-920b-c7b2b98503cd"
-    },
-    {
-        "title": "Favorite Video Games",
-        "text": "MEtal Gear\nFallout New Vegas\nBastion",
-        "id": "dj8sio9c-62j5-4a6e-97c7-3e7eb4ececf3"
     }
 ]
