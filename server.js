@@ -10,7 +10,7 @@ const fs = require('fs');
 
 let db = require('./db/db.json');
 
-//middleware
+//middleware location
 app.use(express.json());
 app.use(express.static('public'));
 
@@ -41,7 +41,6 @@ app.post('/api/notes', (req, res) => {
 
 app.delete('/api/notes/:id', (req, res) => {
     const { id } = req.params;
-
     for (let i = 0; i < db.length; i++) {
         if (id === db[i].id) {
             db.splice(i, 1)
@@ -49,12 +48,10 @@ app.delete('/api/notes/:id', (req, res) => {
             res.status(404).send();
         }
     }
-
     //here I write new db array to db.json file
     fs.writeFile('./db/db.json', JSON.stringify(db), function (err) {
         if (err) throw err
     })
-
     res.send('DONE!');
 })
 
