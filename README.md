@@ -14,6 +14,6 @@ I was tasked with creating a program that was called Note Taker that allows a us
 Git Hub: https://github.com/JHopkins387/Hopkins_Note_Taker
 
 ## Heroku Link
-Heroku Link: https://hopkins-note-taker.herokuapp.com/
+Heroku Link: https://hopkins-note-taker.herokuapp.com/notes
 
 
